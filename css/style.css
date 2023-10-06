@@ -227,14 +227,14 @@ h4{
 
 .div-left-comment {
     /* background-color: cadetblue; */
-    padding-top: 21.5%;
+    padding-top: 18.5%;
     margin-right: 3%;
     margin-left: 5%;
 }
 
 .div-right-comment {
     /* background-color: cadetblue; */
-    padding-top: 33%;
+    padding-top: 28.5%;
     margin-left: 3%;
     margin-right: 5%;
     
@@ -469,20 +469,20 @@ svg {
 .left_title_j,
 .right_title_j{
     margin-bottom: 30px; 
-    background-color: plum;
+    border-radius: 15px;
 }
 
 .goal_j,
 .promise_j {
-    background-color: floralwhite;
+    background-color:  rgb(255, 249, 222);
     width: 700px;
     height: 300px;
     padding: 20px 20px;
     box-shadow: 5px 5px 5px lightgray;
-
-    border: 1px solid floralwhite;
+    font-size: 24px;
+    border: 1px solid  rgb(255, 249, 222);
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 30px;
 }
 
 .guestBookBox{
@@ -517,6 +517,10 @@ section#contact {
 }
 
 .Message_Box_Content>button {
+    background-color: white;
+    border: 4px solid #ffe283;    
+    border-radius: 15px;
     width: 300px;
     margin: 10px auto 0px auto;
+    font-size: 18px;
 }
