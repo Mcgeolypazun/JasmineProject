@@ -55,9 +55,8 @@ a:visited {
 }
 
 .HeaderBox2 {
-    background-color: #6a9dd1;
-    border: solid 1px hwb(192 23% 11%);
-
+    background-color: #89faf0;
+    border: solid 1px hwb(192 60% 0%);
     height: 70px;
 
     display: flex;
@@ -223,6 +222,7 @@ h4{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .div-left-comment {
