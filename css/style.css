@@ -55,13 +55,9 @@ a:visited {
 }
 
 .HeaderBox2 {
-<<<<<<< HEAD
-    background-color: #89faf0;
-    border: solid 1px hwb(192 60% 0%);
-=======
     background-color: #6a9dd1;
     border: solid 1px hwb(192 23% 11%);
->>>>>>> 8d3ddafbb392a641b98d7738b58d4dc089604f0f
+
     height: 70px;
 
     display: flex;
@@ -227,10 +223,6 @@ h4{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-=======
-
->>>>>>> 8d3ddafbb392a641b98d7738b58d4dc089604f0f
 }
 
 .div-left-comment {
