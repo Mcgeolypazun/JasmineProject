@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(206, 224, 203);
+    margin: 0px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.TestDivs>div {
+    background-color: #feffd8;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#topBtn {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    z-index: 9;
+}
+
+.HeaderBox1 {
+    background-color: #ffe17d;
+
+    padding: 10px 0px 10px 0px;
+}
+
+.HeaderBox2 {
+    background-color: #36f5e5;
+    border: solid 1px hwb(192 60% 0%);
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#JBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50px;
+}
+
+#JasmineBox {
+    background-color: hwb(199 38% 0%);
+    /* box-shadow: 1px 1px 4px 0.2px hwb(187 27% 49%); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    border: solid 6px #ffeba9;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+#JSubBox {
+    /* background-color: hwb(180 26% 0%); */
+    height: 55px;
+
+    /* border: solid 1px hwb(192 35% 40%); */
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 30px;
+}
+
+#JSubBox>div {
+    background-color: hwb(192 38% 0%);
+    box-shadow: 1px 1.5px 4px 0.5px hwb(187 27% 49%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    border: solid 4px hwb(192 74% 0%);
+    border-radius: 15px;
+    margin: 0px 0px 0px 7px;
+    padding: 0px 5px 0px 5px;
+}
+
+#JSubBox>div>a {
+    color: white;
+}
+
+#weather {
+    height: 30px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(240, 229, 131);
+    box-shadow: 1px 1px 4px 0px hwb(187 27% 49%);
+    border: solid 4px hwb(192 74% 0%);
+    border-radius: 10px;
+
+    font-weight: 1000;
+
+    margin-left: 10px;
+}
+
+#Jasmine {
+    color:white;
+    font-size: 33px;
+    font-weight: 800;
+
+}
+
+#JSub {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Pepper {
+    height: 300px;
+    width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-image: url('https://img.freepik.com/premium-photo/a-bunch-of-red-chili-peppers-with-water-drops-on-a-black-background_901003-27356.jpg?w=2000');
+    background-position: center;
+    background-size: cover;
+}
+
+#topBtn {
+    background-color: #3ab0ff;
+    height: 30px;
+    width: 50px;
+    color: white;
+
+    border: transparent;
+    border-radius: 10px;
+
+}

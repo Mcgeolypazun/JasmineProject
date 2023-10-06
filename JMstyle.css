@@ -1,0 +1,23 @@
+.container_j {
+    display: flex;
+    justify-content: center;
+}
+
+.left_j,
+.right_j {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.goal_j,
+.promise_j {
+    background-color: floralwhite;
+    width: 500px;
+    height: 300px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 5px lightgray;
+
+    border: 1px solid floralwhite;
+    padding: 20px;
+    border-radius: 3px;
+}

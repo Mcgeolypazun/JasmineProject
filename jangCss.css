@@ -1,0 +1,225 @@
+body{
+    background-color: rgb(243, 238, 231);
+}
+.div-whole {
+    height: 1450px;
+    align-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(236, 224, 208);
+}
+
+.div-left-comment {
+    /* background-color: cadetblue; */
+    padding-top: 23%;
+    margin-right: 3%;
+    margin-left: 5%;
+}
+
+.div-right-comment {
+    /* background-color: cadetblue; */
+    padding-top: 35%;
+    margin-left: 3%;
+    margin-right: 5%;
+    
+}
+
+.div-space-comment {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    padding-bottom: 0%;
+    background-color: #e7e5dd;
+}
+
+.div-left {
+
+    display: flex;
+    margin-right: -20px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.div-right {
+
+    display: flex;
+    margin-left: -30px;
+    margin-top: 60px;
+    /* background-color: aqua; */
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.div-left-column {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: blue; */
+    /* 위치를 상대적으로 조절 */
+    top: 24%;
+    /* 공의 위아래 조절 */
+    right: 0px;
+    /* 공의 좌우 조절 */
+
+
+}
+
+.div-right-column {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: blue; */
+    /* 위치를 상대적으로 조절 */
+    top: 37%;
+    /* 공의 위아래 조절 */
+    right: 0px;
+    /* 공의 좌우 조절 */
+
+
+
+}
+
+.div-space {
+    padding-bottom: 250px;
+    /* background-color: green; */
+}
+
+
+
+
+
+/* 스타일을 추가합니다. */
+.mind-map {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100px;
+    /* 너비를 200픽셀로 설정 */
+    height: 200px;
+    /* 높이를 100픽셀로 설정 */
+
+}
+
+.node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.connector-vertical {
+    display: flex;
+    width: 2px;
+    height: 200px;
+    background-color: #000;
+}
+
+.connector-vertical-short{
+    display: flex;
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+}
+
+.connector-vertical-short-short{
+    display: flex;
+    width: 2px;
+    height: 70px;
+    background-color: #000;
+}
+
+.connector-horizontal-right {
+    display: flex;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin-left: -100%;
+    /* 오른쪽으로 정렬 */
+}
+
+.connector-horizontal-left {
+    display: flex;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin-right: -100%;
+    /* 왼쪽으로 정렬 */
+}
+
+/* .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100px;
+    
+    background-color: aqua;
+} */
+
+svg {
+    display: block;
+    /* background-color: greenyellow; */
+}
+
+.svg-right {
+    width: 140px;
+    height: 140px;
+}
+
+.svg-left {
+    width: 140px;
+    height: 140px;
+}
+
+ /* 버튼 스타일링 */
+ .svg-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px;
+    /* background-color: #007bff; */
+    color: transparent;
+    border: none;
+    border-radius: 100px;
+    
+}
+
+/* 버튼에 호버 스타일 적용 */
+.svg-button:hover {
+    background-color: rgba(77,77,77,.47);
+}
+
+.text-center {
+    text-align: center; /* 텍스트를 가운데 정렬합니다. */
+    vertical-align: middle; /* 텍스트를 수직 가운데 정렬합니다. */
+    
+}
+
+ /* wanna join us컨테이너 스타일링 */
+ .center-container-wanna {
+    display: flex;
+    justify-content: center; /* 가로 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    height: 20vh; /* 화면 높이에 따라 조절 (전체 화면 높이) */
+    background-color: rgb(136, 98, 71);
+    margin-left: 70vh;
+    margin-right: 70vh;
+    border: 2px solid black; /* 테두리 추가 및 색상 설정 */
+}
+
+/* wanna join us 텍스트 스타일링 */
+.center-text-wanna {
+    font-size: 24px;
+    font-weight: bold;
+}
