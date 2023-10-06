@@ -18,6 +18,8 @@ $(document).ready(function () {
 
         if (ondo > 30) {
             $('#weather').append('<span class="text-danger">더워 죽어요;<span>')
+        } else if (ondo < 20) {
+            $('#weather').append('<span class="text-info">쫌 쌀쌀한듯?</span>')
         } else if (ondo < 15) {
             $('#weather').append('<span class="text-info">추워 죽어요;</span>')
         } else {
