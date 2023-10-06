@@ -4,32 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나뭇가지 모양 마인드 맵</title>
+    <title>자스민이란다</title>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <button id="topBtn" type="button" class="topBtn">Top</button>
+
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- 제이쿼리!!!!-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- 부트스트랩~!!!!-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <link href="css/styles_hs.css" rel="stylesheet" />
-
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet"> -->
-
 </head>
+<!-- 제이쿼리!!!!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./script/hanshin-header-script.js"></script>
 <script type="module">
@@ -86,6 +76,7 @@
         $('#card').append(temp_html)
     });
 </script>
+<button id="topBtn" type="button" class="topBtn">Top</button>
 <header>
     <div id="HeaderBox1" class="HeaderBox1">
         <div id="HeaderBox2" class="HeaderBox2">
@@ -96,23 +87,23 @@
             </div>
             <div id="JSubBox" class="JSubBox">
                 <div>
-                    <a href="#HSIntroduce" id="JSub" class="alink">우리팀은</a>
+                    <a href="#Introduce" id="JSub" class="alink">우리팀은</a>
                 </div>
                 <div>
-                    <a href="#HSCharacteristic" id="JSub" class="alink">팀원소개</a>
+                    <a href="#Characteristic" id="JSub" class="alink">팀 특징</a>
                 </div>
                 <div>
-                    <a href="#HSGoal" id="JSub" class="alink">목표</a>
+                    <a href="#Goal" id="JSub" class="alink">목표</a>
                 </div>
-                <!-- <div>
+                <div>
                     <a href="#Promises" id="JSub" class="alink">약속</a>
-                </div> -->
-                <div>
-                    <a href="#HSGuestBook" id="JSub" class="alink">방명록</a>
                 </div>
-                <!-- <div>
+                <div>
+                    <a href="#GuestBook" id="JSub" class="alink">방명록</a>
+                </div>
+                <div>
                     <a href="#Contact" id="JSub" class="alink">연락처</a>
-                </div> -->
+                </div>
                 <p id="weather" class="">오늘은~ </p>
             </div>
             <div id="weatherBox">
@@ -129,7 +120,7 @@
     <!--장규빈-->
     <section class="page-section" id="services">
         <div class="container">
-            <div class="text-center" id="HSIntroduce">
+            <div class="text-center">
                 <div class="jas">
                     <p><I>Team Jasmine</I></p>
                 </div>
@@ -184,7 +175,7 @@
     </section>
     <!--장규빈-->
     <!--장숭혁-->
-    <div class="div-whole" id="HSCharacteristic">
+    <div class="div-whole">
         <div class="div-left-comment">
             <div class="div-space-comment">
                 <p class="text-center3">
@@ -251,7 +242,8 @@
                     <a href="gyubin.html">
                         <button class="svg-button">
                             <svg class="svg-left" width="140" height="140">
-                                <circle cx="70" cy="70" r="68" stroke="black" stroke-width="2" fill="transparent" />
+                                <circle cx="70" cy="70" r="68" stroke="black" stroke-width="2" fill="transparent"
+                                    style="background: url(./img/JJ.jpg);" />
                                 <text x="50%" y="50%" font-size="20" fill="black" text-anchor="middle"
                                     dominant-baseline="middle">
                                     <tspan x="50%" dy="0em">장규빈</tspan>
@@ -367,13 +359,13 @@
     <!--<br><br><br><br><br>-->
     <!--장숭혁-->
     <!--정지명-->
-    <div class="container_j" id="HSGoal">
-        <div class="left_j">
+    <div class="container_j">
 
+        <div class="left_j">
+            <div class="left_title_j">
+                <h1>자스민의 목표</h1>
+            </div>
             <div class="goal_j">
-                <div class="left_title_j">
-                    <h1>자스민의 목표</h1>
-                </div>
                 <p>1. 포기하는 사람 없이 끝까지 함께한다.</p>
                 <p>2. 항상 최선을 다하여 후회가 남지 않도록 한다.</p>
                 <p>3. </p>
@@ -381,12 +373,12 @@
                 <p>5. </p>
             </div>
         </div>
-        <div class="right_j">
 
-            <div class="promise_j">
-                <div class="right_title_j">
-                    <h1>우리 이거 약속하자</h1>
-                </div>
+        <div class="right_j">
+            <div class="right_title_j">
+                <h1>우리 이거 약속하자</h1>
+            </div>
+            <div class=" promise_j">
                 <p>1. 서로 배려하고 존중하자.</p>
                 <p>2. 힘들어도 재밌게 즐기면서 나아가자.</p>
                 <p>3. 서로 맡은 바 최선을 다하자.</p>

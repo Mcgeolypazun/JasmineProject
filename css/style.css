@@ -55,8 +55,13 @@ a:visited {
 }
 
 .HeaderBox2 {
+<<<<<<< HEAD
     background-color: #89faf0;
     border: solid 1px hwb(192 60% 0%);
+=======
+    background-color: #6a9dd1;
+    border: solid 1px hwb(192 23% 11%);
+>>>>>>> 8d3ddafbb392a641b98d7738b58d4dc089604f0f
     height: 70px;
 
     display: flex;
@@ -222,6 +227,10 @@ h4{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d3ddafbb392a641b98d7738b58d4dc089604f0f
 }
 
 .div-left-comment {
@@ -243,6 +252,7 @@ h4{
     /* margin-top: 10%; */
     margin-bottom: 75%;
     padding-bottom: 0%;
+
 }
 
 .div-space-comment2 {
@@ -414,7 +424,7 @@ svg {
 
 /* 버튼에 호버 스타일 적용 */
 .svg-button:hover {
-    background-color: rgba(77,77,77,.47);
+    /* background-color: rgba(77,77,77,.47); */
 }
 
 .text-center {
@@ -439,7 +449,7 @@ svg {
     justify-content: center; /* 가로 가운데 정렬 */
     align-items: center; /* 세로 가운데 정렬 */
     height: 20vh; /* 화면 높이에 따라 조절 (전체 화면 높이) */
-    background-color: rgb(136, 98, 71);
+    /* background-color: rgb(136, 98, 71); */
     margin-left: 70vh;
     margin-right: 70vh;
     border: 2px solid black; /* 테두리 추가 및 색상 설정 */
@@ -461,12 +471,19 @@ svg {
 .right_j {
     margin: 0 10px;
     text-align: center;
+    
+}
+
+.left_title_j,
+.right_title_j{
+    margin-bottom: 30px; 
+    background-color: plum;
 }
 
 .goal_j,
 .promise_j {
     background-color: floralwhite;
-    width: 500px;
+    width: 700px;
     height: 300px;
     padding: 20px 20px;
     box-shadow: 5px 5px 5px lightgray;
