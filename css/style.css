@@ -6,6 +6,8 @@ body{
 }
 
 .jas{
+    
+    background-color: rgb(198, 255, 245);
     font-size: 130px;
     font-family: 'Dancing Script', cursive;
 }
@@ -48,12 +50,12 @@ a:visited {
 }
 
 .HeaderBox1 {
-    background-color: #ffe17d;
+    background-color: #ffe283;
     padding: 10px 0px 10px 0px;
 }
 
 .HeaderBox2 {
-    background-color: #36f5e5;
+    background-color: #89faf0;
     border: solid 1px hwb(192 60% 0%);
     height: 70px;
 
@@ -187,6 +189,7 @@ h4{
 }
 
 .container{
+
     padding-top: 10px;
     margin-top: 100px;
     width:100%;
@@ -207,6 +210,9 @@ h4{
 } */
 
 .div-whole {
+
+    background-color: rgb(255, 249, 222);
+
     height: 1350px;
     width: 100%;
     align-content: center;
@@ -216,7 +222,6 @@ h4{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(236, 224, 208);
 }
 
 .div-left-comment {
@@ -416,7 +421,6 @@ svg {
     font-size: 22px;
     text-align: center; /* 텍스트를 가운데 정렬합니다. */
     vertical-align: middle; /* 텍스트를 수직 가운데 정렬합니다. */
-    
 }
 .text-center3{
     font-size: 20px;
@@ -472,7 +476,9 @@ svg {
     border-radius: 3px;
 }
 
-
+.guestBookBox{
+    background-color: rgb(255, 249, 222);
+}
 
 section#contact {
     /* background-color: #212529;
