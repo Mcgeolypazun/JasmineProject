@@ -1,19 +1,13 @@
-@font-face {
-    font-family: 'Gowun Dodum';
-    src: url(../fonts/ChosunCentennial/ChosunCentennial.eot);
-    src: url(../fonts/ChosunCentennial/ChosunCentennial.eot?#iefix) format('embedded-opentype'),
-         url(../fonts/ChosunCentennial/ChosunCentennial.woff) format('woff'),
-         url(../fonts/ChosunCentennial/ChosunCentennial.ttf) format('truetype');
-         unicode-range: U+AC00-U+D7A3, U+0030-0039;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
-@font-face {
-    font-family: 'Dancing Script';
-    src: url(../fonts/OpenSans/OpenSans-Regular.eot);
-    src: url(../fonts/OpenSans/OpenSans-Regular.eot?#iefix) format('embedded-opentype'),
-         url(../fonts/OpenSans/OpenSans-Regular.woff) format('woff'),
-         url(../fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
-         unicode-range: U+0041-005A,U+0061-007A;
+body{
+    font-family: 'Gowun Dodum', sans-serif!important;
+}
+
+.jas{
+    font-size: 130px;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -195,7 +189,7 @@ a:visited {
     margin-right:auto;
     margin-left:auto;
     line-height:1.75;
-    height: 800px;
+    height: 900px;
 }
 
 .col{
@@ -223,14 +217,14 @@ a:visited {
 
 .div-left-comment {
     /* background-color: cadetblue; */
-    padding-top: 17%;
+    padding-top: 21.5%;
     margin-right: 3%;
     margin-left: 5%;
 }
 
 .div-right-comment {
     /* background-color: cadetblue; */
-    padding-top: 27%;
+    padding-top: 33%;
     margin-left: 3%;
     margin-right: 5%;
     
@@ -238,16 +232,16 @@ a:visited {
 
 .div-space-comment {
     /* margin-top: 10%; */
-    margin-bottom: 55%;
+    margin-bottom: 75%;
     padding-bottom: 0%;
-    background-color: #e7e5dd;
+  
 }
 
 .div-space-comment2 {
     /* margin-top: 10%; */
-    margin-bottom: 45%;
+    margin-bottom: 73%;
     padding-bottom: 0%;
-    background-color: #e7e5dd;
+  
 }
 
 .div-left {
@@ -423,16 +417,14 @@ svg {
     
 }
 .text-center3{
-    font-size: 22px;
+    font-size: 20px;
     text-align: right; /* 텍스트를 가운데 정렬합니다. */
 
-    
 }
 
 .text-center4 {
-    font-size: 22px;
+    font-size: 20px;
     text-align: left; /* 텍스트를 가운데 정렬합니다. */
-    
 }
 
  /* wanna join us컨테이너 스타일링 */
