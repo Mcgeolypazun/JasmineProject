@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-a {
+.alink {
     text-decoration-line: none;
 }
 
@@ -121,11 +121,11 @@ a:visited {
     font-weight: 1000;
 
     margin-left: 10px;
-    padding : 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 #Jasmine {
-    color:white;
+    color: white;
     font-size: 33px;
     font-weight: 800;
 
