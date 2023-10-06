@@ -3,7 +3,9 @@ body{
 }
 .div-whole {
     height: 1450px;
+    width: 100%;
     align-content: center;
+    justify-content: center; /* 수평 가운데 정렬 */
     padding-left: 0px;
     padding-right: 0px;
     display: flex;
@@ -28,8 +30,8 @@ body{
 }
 
 .div-space-comment {
-    margin-top: 10%;
-    margin-bottom: 50%;
+    /* margin-top: 10%; */
+    margin-bottom: 45%;
     padding-bottom: 0%;
     background-color: #e7e5dd;
 }
