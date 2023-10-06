@@ -39,7 +39,7 @@
         // Firebase 인스턴스 초기화
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
-        //포스팅 버튼aa
+        //포스팅 버튼
         $("#postingbtn").click(async function () {
             let name = $('#name').val();
             let message = $('#message').val();
@@ -51,7 +51,6 @@
             alert('메세지가 저장되었습니다!');
             window.location.reload();
         })
-
             // Firebase 데이터 가져오기
             let docs = await getDocs(collection(db, "Sprta_Mini_Pj"));
             docs.forEach((doc) => {
