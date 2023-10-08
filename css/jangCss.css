@@ -1,0 +1,100 @@
+.rounded-button_text {
+    position: absolute;
+}
+
+.rounded-button_text:hover{
+    display: block;
+}
+
+.rounded-image_shin {
+    position: absolute;
+    margin-left: 2%;
+    border-radius: 50%;
+    width: 135px;
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    height: 135px;
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    object-fit: cover;
+    /* 이미지가 원 안에 맞게 보이도록 합니다. */
+    z-index: 0;
+    transition: opacity 0.3s;
+    /* 투명도 전환을 부드럽게 만들기 위한 트랜지션 속성을 추가합니다. */
+    
+}
+
+.rounded-image_shin:hover{
+    opacity: 0;
+    /* 마우스가 요소 위에 올라갈 때 투명도를 변경합니다. */
+}
+
+.rounded-button_text_sung {
+    position: absolute;
+}
+
+.rounded-button_text_sung:hover{
+    display: block;
+}
+
+.rounded-image_sung {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 4px;
+    border-radius: 50%;
+    width: 135px;
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    height: 135px;
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    object-fit: cover;
+    /* 이미지가 원 안에 맞게 보이도록 합니다. */
+    z-index: 0;
+    transition: opacity 0.3s;
+    /* 투명도 전환을 부드럽게 만들기 위한 트랜지션 속성을 추가합니다. */
+    
+}
+
+.rounded-image_sung:hover{
+    opacity: 0;
+    /* 마우스가 요소 위에 올라갈 때 투명도를 변경합니다. */
+}
+
+.sung-margin{
+    margin-top: 150px;
+}
+
+.rounded-image_left_1 {
+    position: absolute;
+    border-radius: 50%;
+    width: 135px;
+    
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    height: 135px;
+    /* 이미지의 크기를 조절할 수 있습니다. */
+    object-fit: cover;
+    /* 이미지가 원 안에 맞게 보이도록 합니다. */
+    z-index: 0;
+    transition: opacity 0.3s;
+    /* 투명도 전환을 부드럽게 만들기 위한 트랜지션 속성을 추가합니다. */
+    
+}
+
+.rounded-image_left_1:hover{
+    opacity: 0;
+    /* 마우스가 요소 위에 올라갈 때 투명도를 변경합니다. */
+}
+
+.hansin-margin_1{
+    margin-top: 150px;
+    margin-right: 130px;
+}
+
+.right-text-position{
+    margin-left: 200px;
+}
+.right-text-position2{
+    margin-left: 10px;
+}
+
+.wood-image{
+    background-image: url('../img/whiteWood.jpg');
+    border-radius: 5%;
+}
