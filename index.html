@@ -9,15 +9,12 @@
     <meta name="author" content="" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jangCss.css">
-    <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- 부트스트랩~!!!!-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/styles_hs.css" rel="stylesheet" />
 </head>
-<!-- 제이쿼리!!!!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -42,19 +39,16 @@
     // Firebase 인스턴스 초기화
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
-    //포스팅 버튼aa
+    //포스팅 버튼
     $("#postingbtn").click(async function () {
         let name = $('#name').val();
         let message = $('#message').val();
-
-
         // Firebase 데이터 보내기
         let doc = { 'name': name, 'message': message };
         await addDoc(collection(db, "Sprta_Mini_Pj"), doc);
         alert('메세지가 저장되었습니다!');
         window.location.reload();
     })
-
     // Firebase 데이터 가져오기
     let docs = await getDocs(collection(db, "Sprta_Mini_Pj"));
     docs.forEach((doc) => {
@@ -95,15 +89,9 @@
                 <div>
                     <a href="#HSGoal" id="JSub" class="alink">목표&약속</a>
                 </div>
-                <!-- <div>
-                    <a href="#Promises" id="JSub" class="alink">약속</a>
-                </div> -->
                 <div>
                     <a href="#HSGuestBook" id="JSub" class="alink">방명록</a>
                 </div>
-                <!-- <div>
-                    <a href="#Contact" id="JSub" class="alink">연락처</a>
-                </div> -->
                 <p id="weather" class="">오늘은~ </p>
             </div>
             <div id="weatherBox">
@@ -112,12 +100,7 @@
     </div>
 </header>
 
-
 <body>
-    <!--김한신-->
-
-    <!--김한신-->
-    <!--장규빈-->
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
@@ -173,9 +156,6 @@
             </div>
         </div>
     </section>
-    <!--장규빈-->
-    <!--장숭혁-->
-
     <section class="page-section" style="padding-left: 200px; padding-right: 200px">
         <div class="jas2" id="HSCharacteristic">
             <p><I>Members</I></p>
@@ -198,10 +178,10 @@
                         <a href="sunghyuk/personalSung.html"><img src="img/sunghyuk.jpg" class="pic"></a>
                     </span>
                     <h4 class=" my-3">장숭혁</h4>
-                            <p class="text-muted">
-                                MBTI : INFP<br>
-                                Blog : https://velog.io/@tarantula<br>
-                                Github : https://github.com/Mcgeolypazun<br></p>
+                    <p class="text-muted">
+                        MBTI : INFP<br>
+                        Blog : https://velog.io/@tarantula<br>
+                        Github : https://github.com/Mcgeolypazun<br></p>
                 </div>
                 <div class="col" style="height: 400px;">
                     <span class="fa-stack fa-4x">
@@ -210,9 +190,9 @@
                         </a>
                     </span>
                     <h4 class=" my-3">신항식</h4>
-                            <p class="text-muted">MBTI : INTP<br>
-                                Blog : https://1907hgt.tistory.com/<br>
-                                Github : https://github.com/kinghangsik<br></p>
+                    <p class="text-muted">MBTI : INTP<br>
+                        Blog : https://1907hgt.tistory.com/<br>
+                        Github : https://github.com/kinghangsik<br></p>
                 </div>
             </div>
             <div class="row text-center">
@@ -223,9 +203,9 @@
                         </a>
                     </span>
                     <h4 class=" my-3">장규빈</h4>
-                            <p class="text-muted">MBTI : ISFP<br>
-                                Blog : https://velog.io/@jac01122<br>
-                                Github : https://github.com/Binsreoun<br></p>
+                    <p class="text-muted">MBTI : ISFP<br>
+                        Blog : https://velog.io/@jac01122<br>
+                        Github : https://github.com/Binsreoun<br></p>
                 </div>
                 <div class="col" style="height: 400px;">
                     <span class="fa-stack fa-4x">
@@ -234,9 +214,9 @@
                         </a>
                     </span>
                     <h4 class=" my-3">정지명</h4>
-                            <p class="text-muted"> MBTI : ISTJ<br>
-                                Blog : https://velog.io/@jimyung0418<br>
-                                Github : https://github.com/jimyung0418<br></p>
+                    <p class="text-muted"> MBTI : ISTJ<br>
+                        Blog : https://velog.io/@jimyung0418<br>
+                        Github : https://github.com/jimyung0418<br></p>
                 </div>
                 <div class="col" style="height: 400px;">
                     <span class="fa-stack fa-4x">
@@ -245,17 +225,12 @@
                         </a>
                     </span>
                     <h4 class=" my-3"></h4>
-                            <p class="text-muted">who's next?</p>
+                    <p class="text-muted">who's next?</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!--<br><br><br><br><br>-->
-    <!--장숭혁-->
-    <!--정지명-->
     <div class="container_j" id="HSGoal">
-
         <div class="left_j">
             <div class="left_title_j">
                 <h1>자스민의 목표</h1>
@@ -268,7 +243,6 @@
                 <p>5. 팀 활동을 통해 협업에 익숙해진다.</p>
             </div>
         </div>
-
         <div class="right_j">
             <div class="right_title_j">
                 <h1>자스민의 약속</h1>
@@ -282,8 +256,6 @@
             </div>
         </div>
     </div>
-    <!--정지명-->
-    <!--신항식-->
     <section class="guestBookBox">
         <div class="container" id="HSGuestBook" style="height: auto;">
             <div class="text-center">
@@ -293,43 +265,26 @@
                     <div class=" mycards">
                         <div id="card" class="row row-cols-1 row-cols-md-4 g-3">
                         </div>
+                    </div>
+                    <h1 class="Message_Box_Title" style="margin: 0px;">MESSAGE BOX</h1>
                 </div>
-                <h1 class="Message_Box_Title" style="margin: 0px;">MESSAGE BOX</h1>
-            </div>
-            <div class="Message_Box_Content" style="background-color: white;">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name*">
-
-                    <label for="exampleFormControlInput1" class="form-label">Message</label>
-                    <input type="text" class="form-control" id="message" placeholder="Message*">
-
-                    <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Please enter 5 characters"
-                        maxlength="5">
+                <div class="Message_Box_Content" style="background-color: white;">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name*">
+                        <label for="exampleFormControlInput1" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="message" placeholder="Message*">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password"
+                            placeholder="Please enter 5 characters" maxlength="5">
+                    </div>
+                    <button id="postingbtn" type="button">Leave a message</button>
                 </div>
-                <button id="postingbtn" type="button">Leave a message</button>
+                <br>
+                <br>
             </div>
-            <br>
-            <br>
-        </div>
         </div>
     </section>
 </body>
-<!-- Footer-->
-<!-- <footer class="footer">
-    <div class="container2">
-        <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-start">Copyright ©2023 &copy; TeamJasmin. All rights reserved </div>
-            <div class="col-lg-4 my-3 my-lg-0">
-            </div>
-            <div class="col-lg-4 text-lg-end" style="margin: 0; padding: ;">
-                <a class="link-dark text-decoration-none"> If you want to know more about us</a>
-                <a class="link-dark text-decoration-none" href="http://www.google.co.kr">Search Here</a>
-            </div>
-        </div>
-    </div>
-</footer> -->
-<!--신항식-->
 
 </html>

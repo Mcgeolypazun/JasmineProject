@@ -22,10 +22,6 @@ body{
 
 }
 
-/* .page-section{
-    background-color: #FDF0F0;
-} */
-
 header{
     position: fixed;
     left: 0;
@@ -71,7 +67,6 @@ a:visited {
     background-color: #89faf0;
     border: solid 1px hwb(192 60% 0%);
     height: 70px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,12 +84,10 @@ a:visited {
 
 #JasmineBox {
     background-color: hwb(199 38% 0%);
-    /* box-shadow: 1px 1px 4px 0.2px hwb(187 27% 49%); */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     height: 50px;
     border: solid 6px #ffeba9;
     border-radius: 10px;
@@ -103,17 +96,12 @@ a:visited {
 }
 
 #JSubBox {
-    /* background-color: hwb(180 26% 0%); */
     height: 55px;
-
-    /* border: solid 1px hwb(192 35% 40%); */
     border-radius: 15px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     position: absolute;
     right: 30px;
 }
@@ -121,12 +109,10 @@ a:visited {
 #JSubBox>div {
     background-color: hwb(192 38% 0%);
     box-shadow: 1px 1.5px 4px 0.5px hwb(187 27% 49%);
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     height: 40px;
     border: solid 4px hwb(192 74% 0%);
     border-radius: 15px;
@@ -141,19 +127,15 @@ a:visited {
 #weather {
     height: 30px;
     color: white;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     background-color: rgb(240, 229, 131);
     box-shadow: 1px 1px 4px 0px hwb(187 27% 49%);
     border: solid 4px hwb(192 74% 0%);
     border-radius: 10px;
-
     font-weight: 1000;
-
     margin: 10px;
     padding: 0px 5px 0px 5px;
 }
@@ -162,8 +144,6 @@ a:visited {
     color: white;
     font-size: 33px;
     font-weight: 800;
-    
-
 }
 
 #JSub {
@@ -174,13 +154,10 @@ a:visited {
 .Pepper {
     height: 300px;
     width: 1200px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
     background-image: url('https://img.freepik.com/premium-photo/a-bunch-of-red-chili-peppers-with-water-drops-on-a-black-background_901003-27356.jpg?w=2000');
     background-position: center;
     background-size: cover;
@@ -191,10 +168,8 @@ a:visited {
     height: 30px;
     width: 50px;
     color: white;
-
     border: transparent;
     border-radius: 10px;
-
 }
 
 h4{
@@ -202,7 +177,6 @@ h4{
 }
 
 .container{
-
     padding-top: 10px;
     margin-top: 100px;
     width:100%;
@@ -210,11 +184,9 @@ h4{
     margin-left:auto;
     line-height:1.75;
     height: 900px;
-
 }
 
 .container2{
-
     width:100%;
     margin-right:auto;
     margin-left:auto;
@@ -222,56 +194,49 @@ h4{
     height: 850px;
 }
 
-
 .col{
     height: 350px;
     flex:0 0 auto;
     width:33.33333333%
 }
 
-/* body{
-    background-color: rgb(243, 238, 231);
-} */
-
 .text-center {
 color: black;
     font-size: 22px;
-    text-align: center; /* 텍스트를 가운데 정렬합니다. */
-    vertical-align: middle; /* 텍스트를 수직 가운데 정렬합니다. */
+    text-align: center;
+    vertical-align: middle;
 }
+
 .text-center3{
 color: black;
     font-size: 20px;
-    text-align: right; /* 텍스트를 가운데 정렬합니다. */
+    text-align: right;
 
 }
 
 .text-center4 {
 color: black;
     font-size: 20px;
-    text-align: left; /* 텍스트를 가운데 정렬합니다. */
+    text-align: left;
 }
 
- /* wanna join us컨테이너 스타일링 */
 .center-container-wanna {
     display: flex;
-    justify-content: center; /* 가로 가운데 정렬 */
-    align-items: center; /* 세로 가운데 정렬 */
-    height: 20vh; /* 화면 높이에 따라 조절 (전체 화면 높이) */
-    /* background-color: rgb(136, 98, 71); */
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
     margin-left: 70vh;
     margin-right: 70vh;
-    border: 2px solid black; /* 테두리 추가 및 색상 설정 */
+    border: 2px solid black;
 }
 
-/* wanna join us 텍스트 스타일링 */
 .center-text-wanna {
     font-size: 24px;
     font-weight: bold;
 }
 
 .container_j {
-   padding-top: 100px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 
@@ -304,14 +269,7 @@ color: black;
 }
 
 .guestBookBox{
-
     background-color: rgb(255, 249, 222);
-}
-
-section#contact {
-    /* background-color: #212529;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 .GUEST_BOOK {
@@ -354,8 +312,8 @@ section#contact {
     height: 700px;
     flex:0 0 auto;
     width:33.33333333%
-
 }
+
 .form-label{
     color: black;
 }
