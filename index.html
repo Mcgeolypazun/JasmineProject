@@ -24,6 +24,7 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
     import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
     import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+    import { doc, deleteDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
     import { getDocs } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
     // Firebase 구성 정보 설정
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -43,19 +44,31 @@
     $("#postingbtn").click(async function () {
         let name = $('#name').val();
         let message = $('#message').val();
+        let password = $('#password').val();
         // Firebase 데이터 보내기
-        let doc = { 'name': name, 'message': message };
-        await addDoc(collection(db, "Sprta_Mini_Pj"), doc);
-        alert('메세지가 저장되었습니다!');
-        window.location.reload();
+        if (name == '') {
+            alert('이름이 없습니다!');
+        } else if (message == '') {
+            alert('메세지가 없습니다!');
+        } else if (message == '') {
+            alert('비밀번호가 없었습니다!');
+        } else {
+            let doc = { 'name': name, 'message': message, 'password': password };
+            await addDoc(collection(db, "Sprta_Mini_Pj"), doc);
+            alert('메세지가 저장되었습니다!');
+            window.location.reload();
+        }
     })
     // Firebase 데이터 가져오기
     let docs = await getDocs(collection(db, "Sprta_Mini_Pj"));
     docs.forEach((doc) => {
         let row = doc.data();
         console.log(row);
+        console.log(doc.id);
+        let id = doc.id;
         let name = row['name'];
         let message = row['message'];
+        let password = row['password'];
         let temp_html = `
         <div class="col">
                     <div class="card">
@@ -64,11 +77,24 @@
                         <div class="card-body">
                             <h5 class="card-title">${name}</h5>
                             <p class="card-text">${message}</p>
+                            <p class="card-text" style="display:none">${password}</p>
+                            <p class="card-id" value="ids" style="display:none" id=${name}${password}>${id}</p>    
                         </div>
                     </div>
                 </div>`
         $('#card').append(temp_html)
     });
+
+    $("#delete").click(async function () {
+        let name = $('#name').val();
+        let message = $('#message').val();
+        let password = $('#password').val();
+        let id = document.getElementById(name + password);
+        await deleteDoc(doc(db, "Sprta_Mini_Pj", id.innerText));
+        alert('메세지가 삭제되었습니다!');
+        window.location.reload();
+    })
+
 </script>
 <button id="topBtn" type="button" class="topBtn">Top</button>
 <header>
@@ -281,7 +307,9 @@
                             placeholder="Please enter 5 characters" maxlength="5">
                     </div>
                     <button id="postingbtn" type="button">Leave a message</button>
+                    <button id="delete" type="button">delete</button>
                 </div>
+                <p style="color: black; margin: 0px;">*삭제시 이름과 비밀번호를 입력해주세요!</p>
                 <br>
                 <br>
             </div>

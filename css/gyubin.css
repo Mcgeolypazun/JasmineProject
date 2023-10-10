@@ -1,4 +1,10 @@
 
+.button1{
+    background-color: #031e3d; 
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
     header {
         width: 100%;
         height: 50px;
