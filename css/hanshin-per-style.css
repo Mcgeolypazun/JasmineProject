@@ -54,7 +54,7 @@ body {
 
     /* border: solid 1px white; */
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
     padding: 10px;
 
     color: white;
@@ -68,7 +68,7 @@ body {
 
     border: dashed 1px white;
     border-radius: 10px;
-    margin: 15px 10px 15px 10px;
+    margin: 15px 10px 0px 10px;
     padding: 10px;
 
     color: white;
@@ -168,4 +168,13 @@ body {
     background-position: center;
     background-size: cover;
 
+}
+.linkbox {
+    margin-bottom : 15px;
+}
+.linkbox>a{
+    color: white;
+    border : solid 1px white;
+
+    margin:0px 3px;
 }
