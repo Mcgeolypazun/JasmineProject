@@ -69,6 +69,7 @@
         let name = row['name'];
         let message = row['message'];
         let password = row['password'];
+        let name2 = name.split(' ').join('');
         let temp_html = `
         <div class="col">
                     <div class="card">
@@ -78,7 +79,7 @@
                             <h5 class="card-title">${name}</h5>
                             <p class="card-text">${message}</p>
                             <p class="card-text" style="display:none">${password}</p>
-                            <p class="card-id" value="ids" style="display:none" id=${name}${password}>${id}</p>    
+                            <p class="card-id" value="ids" style="display:none" id=${name2}${password}>${id}</p>    
                         </div>
                     </div>
                 </div>`
@@ -89,7 +90,8 @@
         let name = $('#name').val();
         let message = $('#message').val();
         let password = $('#password').val();
-        let id = document.getElementById(name + password);
+        let name2 = name.split(' ').join('');
+        let id = document.getElementById(name2 + password);
         await deleteDoc(doc(db, "Sprta_Mini_Pj", id.innerText));
         alert('메세지가 삭제되었습니다!');
         window.location.reload();
